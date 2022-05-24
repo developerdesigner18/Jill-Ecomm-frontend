@@ -1,0 +1,10 @@
+.threeLines span {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  display: block;
+}
+.me-2 {
+  background-color: rgb(130, 65, 184);
+  border: none;
+}
