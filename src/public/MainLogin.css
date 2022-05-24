@@ -1,0 +1,44 @@
+.MainLogin_cont {
+  display: grid;
+  place-items: center;
+  padding: 110px 0px;
+}
+.MainLogin_cont_form {
+  /* max-width: 70%; */
+  box-shadow: 0 0 6px 6px rgb(248, 246, 246);
+  padding: 30px 40px;
+}
+.input-container input {
+  /* width: 100%; */
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  border: 0.3px solid #dbdae4;
+  padding: 0px 5px;
+}
+.button-container input {
+  background-color: #fb2e86;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+}
+::placeholder {
+  color: #a39fbd;
+}
+.MainLogin_cont_Login_h2 {
+  font-weight: bold;
+}
+.MainLogin_cont_h6 {
+  font-size: 13px;
+  color: #a39fbd;
+  font-weight: bold;
+}
+.MainLogin_cont_h6_left {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #a39fbd;
+  font-weight: bold;
+  text-align: left;
+}

@@ -2,17 +2,16 @@ import React from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Heading";
 import SubHeader from "../components/header/SubHeader";
-import MainLogin from "../components/login/MainLogin";
+import MainRegister from "../components/register/MainRegister";
 
-const Login = () => {
+export const Register = () => {
   return (
     <div>
       <Header />
       <SubHeader />
-      <MainLogin />
+      <MainRegister />
       <Footer />
     </div>
   );
 };
-// https://www.bigcommerce.com/
-export default Login;
+export default Register;

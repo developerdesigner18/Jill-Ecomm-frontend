@@ -3,11 +3,14 @@ import "../../public/Heading.css";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { BiPhoneCall, BiUser } from "react-icons/bi";
 import { BsCart2 } from "react-icons/bs";
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa";
-import Navbar from "./Navbar";
+import { FiSettings } from "react-icons/fi";
 
-export const Header = () => {
+import NavbarRes from "./NavbarRes";
+import { Navbar } from "./Navbar";
+import { IoMdNotificationsOutline } from "react-icons/io";
+const Header = () => {
   const [show, setShow] = useState(false);
   return (
     <>
@@ -27,14 +30,6 @@ export const Header = () => {
         <div className="Header_rightSide">
           <ul>
             <li className="Header_icons">
-              <li>English</li>
-              <IoIosArrowDown size={25} />
-            </li>
-            <li className="Header_icons">
-              <li>USD</li>
-              <IoIosArrowDown size={25} />
-            </li>
-            <li className="Header_icons">
               <li>Login</li>
               <BiUser size={25} />
             </li>
@@ -47,12 +42,22 @@ export const Header = () => {
               {" "}
               <BsCart2 size={25} />
             </li>
+            <li>
+              {" "}
+              <IoMdNotificationsOutline size={25} />
+            </li>
+            <li>
+              {" "}
+              <FiSettings size={25} />
+            </li>
           </ul>
         </div>
         <div className="hamburger" onClick={() => setShow(true)}>
-          {show && <Navbar placement="end" />}
+          <NavbarRes placement="end" />
         </div>
       </div>
+      <Navbar />
     </>
   );
 };
+export default Header;

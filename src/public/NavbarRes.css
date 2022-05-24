@@ -1,0 +1,21 @@
+.threeLines span {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  display: block;
+}
+.me-2 {
+  background-color: rgb(130, 65, 184) !important ;
+  border: none !important;
+}
+button.btn-primary {
+  background-color: rgb(130, 65, 184) !important ;
+  border: none !important;
+}
+button.btn {
+  box-shadow: none !important;
+  padding: 0px !important;
+}
+.hamburger span:not(:last-child) {
+  margin-bottom: 4px;
+}

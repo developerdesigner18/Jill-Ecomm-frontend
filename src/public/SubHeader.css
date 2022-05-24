@@ -1,0 +1,28 @@
+.main_subHeader {
+  background-color: #eeeffb;
+  text-align: left;
+  justify-content: space-evenly;
+  padding: 70px 0px;
+  display: flex;
+  gap: 620px;
+}
+.Sub_main_subHeader {
+  /* margin: 0px auto;
+  border: 1px solid black;
+  max-width: 70%; */
+}
+.home_sh {
+  font-size: 13px;
+  /* color: #151875; */
+  font-weight: bold;
+}
+.myAccount_sh {
+  font-size: 30px;
+  color: #151875;
+  font-weight: bold;
+}
+@media only screen and (max-width: 900px) {
+  .hidden_sh {
+    display: none;
+  }
+}
